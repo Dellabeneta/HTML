@@ -2,7 +2,7 @@ version 0.0
 os: linux
 file:
   - source: /
-    destionation: /var/www/html/
+    destination: /var/www/html/
 hooks:
   BeforeInstall
     - location: stop_server

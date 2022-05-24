@@ -7,4 +7,4 @@ hooks:
   BeforeInstall
     - location: stop_server
       timeout: 30
-      runas: ec2_user
+      runas: root

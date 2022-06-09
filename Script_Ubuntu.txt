@@ -1,0 +1,13 @@
+#! /bin/bash
+# Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2022-04-19
+# ami-0eea504f45ef7a8f7
+
+sudo apt update
+sudo apt install apache2 -y
+sudo apt install unzip -y
+sudo apt install ruby-full -y
+sudo apt install awscli -y
+cd /home/ubuntu/
+wget https://aws-codedeploy-us-east-2.s3.us-east-2.amazonaws.com/latest/install
+chmod +x ./install
+sudo ./install auto

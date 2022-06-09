@@ -1,6 +1,6 @@
-#! /bin/bash
-# Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2022-04-19
-# ami-0eea504f45ef7a8f7
+#!/bin/bash
+#Canonical, Ubuntu, 20.04 LTS, amd64 focal image build on 2022-04-19
+#ami-0eea504f45ef7a8f7
 
 sudo apt update
 sudo apt install apache2 -y

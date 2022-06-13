@@ -5,3 +5,5 @@ chmod-site-deploy
 chmod-aplicacao-site
 chmod-aplicacao-deploy-group
 chmod-pipeline
+chmod-config-exec-as
+chmod-autoscaling-group

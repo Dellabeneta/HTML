@@ -1,0 +1,7 @@
+chmod-site-lb-target-group
+chmod-site-lb
+chmod-site-ec2-s3-read
+chmod-site-deploy
+chmod-aplicacao-site
+chmod-aplicacao-deploy-group
+chmod-pipeline
